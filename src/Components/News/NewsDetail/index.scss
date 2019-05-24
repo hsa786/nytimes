@@ -1,0 +1,28 @@
+.news-detail {
+  position: relative;
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #fafafa;
+}
+
+.news-detail__close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+  svg {
+    width: 20px;
+  }
+}
+
+.news-detail__image {
+  width: 100%;
+}
+
+.news-detail__body {
+  line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  display: flex;
+  height: 60px;
+  background: #65f9d3;
+  color: #fff;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(#000, 0.2);
+}
+
+.header__menu {
+  display: grid;
+  justify-content: center;
+}
+
+.header__menu-trigger {
+  background: none;
+  border: 0;
+}
+
+.header__title {
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
